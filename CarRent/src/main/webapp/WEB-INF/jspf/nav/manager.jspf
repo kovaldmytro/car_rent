@@ -1,0 +1,22 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf"%>
+<nav class="navbar navbar-inverse" data-offset-top="268"
+	style="margin-bottom: 0px;">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">Car Rent</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="orders">Orders</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><p class="navbar-text">You are logged in as ${user.name}
+					${user.surname}</p></li>
+			<li><form action="/CarRent/logout" method="POST">
+					<button type="submit" class="btn btn-danger btn-sm">
+						<span class="glyphicon glyphicon-log-in"></span> Logout
+					</button>
+				</form></li>
+		</ul>
+	</div>
+</nav>

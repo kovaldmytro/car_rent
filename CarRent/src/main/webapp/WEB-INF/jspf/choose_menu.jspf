@@ -1,0 +1,16 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf"%>
+<div>
+	<c:choose>
+		<c:when test="${user.role.name eq 'admin'}">
+			<%@ include file="/WEB-INF/jspf/nav/admin.jspf"%>
+		</c:when>
+		<c:when test="${user.role.name eq 'manager'}">
+			<%@ include file="/WEB-INF/jspf/nav/manager.jspf"%>
+		</c:when>
+		<c:when test="${user.role.name eq 'client'}">
+			<%@ include file="/WEB-INF/jspf/nav/client.jspf"%>
+		</c:when>
+	</c:choose>
+
+</div>

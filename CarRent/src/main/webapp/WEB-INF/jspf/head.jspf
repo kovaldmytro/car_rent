@@ -1,0 +1,24 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf"%>
+
+<head>
+<!-- Title -->
+<title>Car Rent | ${title}</title>
+<!-- Content type -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Icon -->
+<link rel="shortcut icon"
+	href='<c:url value="/resources/img/mashina.png" />'>
+
+<!-- CSS -->
+<!-- Bootstrap -->
+<link href='<c:url value="/resources/css/bootstrap.min.css" />'
+	rel="stylesheet">
+
+<link href='<c:url value="/resources/css/main.css"/>' rel="stylesheet">
+
+<link href='<c:url value="/resources/css/bootstrap.css"/>'
+	rel="stylesheet">
+<script src='//fast.eager.io/JEUX7LojbC.js'></script>
+
+</head>

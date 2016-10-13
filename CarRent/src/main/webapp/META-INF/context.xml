@@ -1,0 +1,7 @@
+<Context>
+	<Resource name="jdbc/car_rent" auth="Container" type="javax.sql.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000" username="root" password=""
+		driverClassName="com.mysql.jdbc.Driver" defaultAutoCommit="false"
+		defaultTransactionIsolation="READ_COMMITTED" url="jdbc:mysql://127.0.0.1:3306/car_rent"
+		connectionProperties="useUnicode=yes;characterEncoding=utf8;" />
+</Context>
